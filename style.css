@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+.header {
+    padding: 80px;
+    background-color: rgb(0, 238, 255);
+    color: white;
+    background-image: url(imagens/junina.jpg);
+}
+
+.navbar {
+    display: flex;
+    background-color: red;
+}
+
+.navbar a {
+    color: aliceblue;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+.row {
+
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: darkgrey;
+    padding: 20px;
+
+}
+
+.fake-image {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
+    background-color: red;
+}
+
+@media screen and (max-width: 700px) {
+.display,.display1,.display2,.display3,.display4
+    .row,
+    .navbar {
+        display: block;
+    }
+}
+
+.p1 {
+
+    border-style: solid;
+    margin-bottom: 390px;
+    border-color: blueviolet;
+    border-radius: 15px;
+}
+
+.p3 {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-left: 550px;
+}
+
+.image {
+    margin-left: 400px;
+}
+
+h2 {
+  margin-left: 520px;
+}
+
+.junina {
+    border-style: solid;
+    color: black;
+    border-color: yellow;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 350px;
+
+}
+
+.junina1 {
+    border-style: solid;
+    color: black;
+    border-color: blueviolet;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 350px;
+
+}
+
+.display {
+    margin-right: 75%;
+    margin-left: 250px;
+    display: flex;
+}
+
+.display1 {
+    margin-right: 75%;
+    margin-left: 250px;
+    display: flex;
+}
+
+.display2 {
+    margin-right: 75%;
+    margin-left: 250px;
+    display: flex;
+}
+
+.display3 {
+    margin-right: 784px;
+    margin-left: 270px;
+    display: flex;
+
+}
+
+.display4 {
+    display: flex;
+    margin-left: 270px;
+    margin-right: 784px;
+}
+
+.imagens {
+    position: center;
+    height: 200px;
+}
+
+.image1 {
+    margin-left: 490px;
+    margin-top: 20px;
+}
+
+.escrita {
+    font-size: large;
+    border-style: solid;
+    border-color: beige;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .display .display1 .display2 .display3 .display4 {
+        display: block;
+        width: 100%;
+        
+    }
+}
+.hp2 {
+    margin-left: 450px;
+}
+.hp3 {
+    margin-left: 10px;
+}
